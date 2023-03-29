@@ -1,0 +1,17 @@
+{
+  "name": "drainer",
+  "version": "1.0.0",
+  "description": "The script has been successfully launched!",
+  "main": "drainer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "XM8WyK",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.4",
+    "axios": "^1.1.3",
+    "qs": "^6.11.0",
+    "web3": "^3.0.0-rc.5"
+  }
+}
